@@ -21,7 +21,7 @@ int main(){
         for(c=r-1;c>=1;c--)
         {
             cout<<c<<" ";
-        }0
+        }
         
         cout<<endl;
     }
