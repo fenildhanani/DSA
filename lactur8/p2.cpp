@@ -16,11 +16,13 @@ int main(){
         }
         for(c=1;c<=r;c++)
         {
-        for(c=r-1;c=1;c--)
-        {
             cout<<c<<" ";
         }
-    }
+        for(c=r-1;c>=1;c--)
+        {
+            cout<<c<<" ";
+        }0
+        
         cout<<endl;
     }
 }
