@@ -10,14 +10,14 @@ int main()
     for(int i=0;i<n;i++)
     cin>>arr[i];
 
-    for(int i=1;i<n;i++)
+    for(int i=n;i>0;i--)
     {
-        for(int j=i;j>0;j--)
+        for(int j=i;j<n;j++)
         {
-            if(arr[j]<arr[j-1])
+            if(arr[j]>arr[j-1])
                 swap(arr[j],arr[j-1]);
             else
-                break;
+                break; 
         }
     }
     for(int i=0;i<n;i++)
