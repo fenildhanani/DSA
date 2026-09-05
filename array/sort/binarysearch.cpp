@@ -23,12 +23,12 @@ int BinarySearch(int arr[],int n,int key)
  
 int main()
 {
-    int arr[1000];
+    int arr[1000];    
     int n;
     cout<<"enter the number of an element of array";
     cin>>n;
     cout<<"enter the element";
-    for(int i=0;i<n;i++)
+    for(int i=0;i<n;i++)  
     cin>>arr[i];
 
     int key;
